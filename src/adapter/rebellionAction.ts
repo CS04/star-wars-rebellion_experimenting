@@ -91,7 +91,7 @@ export type RebellionAction =
       kind: 'resolvePublicUprisingPick';
       picks: {
         circle: 'corellian-corvette' | 'airspeeder';
-        triangles: ('x-wing' | 'rebel-trooper')[];
+        triangles: ('x-wing' | 'y-wing' | 'rebel-trooper')[];
       };
     }
   | { kind: 'resolveSupportOfMonCalamariPick'; option: 'loyalty' | 'cruiser' }
